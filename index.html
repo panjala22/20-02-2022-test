@@ -1,0 +1,48 @@
+<html>
+<head>
+<style>
+.input{
+width: 250px;
+height:30px;
+}
+.button{
+width:80px;
+height:28px;
+border: radius 0px;
+}
+.cancel1{
+width:80px;
+height:28px;
+border-radius:0px;
+text-align: center;
+background-color: red;
+}
+</style>
+</head>
+<body style="text-align:center;margin:80px;background-color:#e7d2e1;">
+<div>
+<form>
+<h1 style="font-family:Arial;">Application Form</h1>
+<input class="input" type="text" placeholder="Enter Your First Name" required><br><br>
+<input class="input" type="text" placeholder="Enter Your Last Name"><br><br>
+<input class="input" type="email" placeholder="Enter Your Email Address" required><br><br>
+<input class="input" type="text" placeholder="Contact Number"><br><br>
+<label>Select Gender:</label>
+<input type="radio" id="gender" value="Male" name="gender"><label for="gender">Female</label>
+<input type="radio" id="gender" value="Female" name="gender"><label for="gender" >male</label><br><br>
+<label for="bday">Date of Birth:</label>
+<input type="date" id="bday" name="birthdate" required><br><br>
+<label for="cars">Choose your course:</label>
+<select name="cars" id="cars">
+<option value="volvo">None</option>
+<option value="volvo">Mern Fullstack</option>
+<option value="saab">Java Fullstack</option>
+</select>
+<br><br>
+<input type="checkbox" id="check "name="check">I have read all terms and conditions<br><br>
+<input class="button" type="Submit" style="background-color:#3db156;color:white;"> 
+ <input class="cancel1" type="text" placeholder="cancel">
+</form>
+</div>
+</body>
+</html>
